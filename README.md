@@ -1,1 +1,1 @@
-今日学んだこと<br>Today I Learned
+<h1>Today I Learned</h1>
