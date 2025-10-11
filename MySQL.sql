@@ -9,12 +9,14 @@ mysql -u root -p
 mysql -u cm -p studyDB
 
 DESC pokemon_zukann;
+
 SELECT *
 FROM pokemon_zukann;
 
 SELECT zukann_no, pokemon_name, evolution_seq
 FROM pokemon_zukann;
 
+-- 算術演算
 SELECT gname, price, price * 1.2
 FROM goods;
 
@@ -22,4 +24,11 @@ SELECT gname, price, price * 1.2 as new_price
 FROM goods;
 
 SELECT ename, sal, comm, (sal + comm) * 2 as summer_bonus
+FROM emp;
+
+-- 列見出し
+SELECT gname, price, price * 1.2 as new_price
+FROM goods;
+
+SELECT empno as "EMP-NO", ename as "E name", job as "<job>"
 FROM emp;
