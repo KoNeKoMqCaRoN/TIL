@@ -1,2 +1,1 @@
-今日学んだこと
-Today I Learned
+今日学んだこと<br>Today I Learned
