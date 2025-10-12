@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "jp.ac.jec.cm25cm0118.screentransition"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "jp.ac.jec.cm25cm0118.screentransition"
