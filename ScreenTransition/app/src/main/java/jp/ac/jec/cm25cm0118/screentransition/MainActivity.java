@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private void MoveGamen(){
-        Intent intent = new Intent(this.getApplicationContext(), SubActivity.class);
+        Intent intent = new Intent(this.getApplicationContext(), OtherActivity.class);
         intent.putExtra("Param", true);
         startActivity(intent);
     }
