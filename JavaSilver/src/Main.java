@@ -3,25 +3,15 @@ import java.util.ArrayList;
 public class Main {
 
    public static void main(String[] args) {
-      question_001();
+      Silver001 sil001 = new Silver001();
+      Silver003 sil003 = new Silver003();
+
+      sil003.question_013();
+
    }
 
 
-   // 2025/10/13 Silver第1回
-   static void question_001() {
-      /*
-      パッケージに関する説明として、正しいものを選びなさい。（3つ選択）
-      A. 名前空間を提供する
-      B. パッケージ名にはドメイン名を逆にしたものを使用しなければならない
-      C. アクセス制御を提供する
-      D. クラスの分類を可能にする
-      E. パッケージに属さないクラスもある
-       */
-      System.out.println("A ,C, D");
-   }
-
-
-   // 2025/10/14 第2回
+   // 2025/10/14 Silver第2回
    private static void question_002() {
       /*
       次のうち、インポート宣言をしなくても、自動的にインポートされるものはどれか。正しいものを選びなさい。（2つ選択）
