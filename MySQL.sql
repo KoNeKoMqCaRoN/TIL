@@ -32,3 +32,17 @@ FROM goods;
 
 SELECT empno as "EMP-NO", ename as "E name", job as "<job>"
 FROM emp;
+
+
+-- 2025/10/18 WHERE
+WHERE sal < 100;
+
+-- AND, OR
+WHERE sal > 100 AND sal < 1000;
+WHERE name = 'オーメン' OR name = 'ジェット';
+
+-- 重複データを表示しない
+SELECT DISTINCT 〇〇, 〇〇;
+
+-- 〇〇が〇〇〜〇〇
+SELECT sal BETWEEN 100 AND 1000;
