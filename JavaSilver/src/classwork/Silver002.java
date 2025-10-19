@@ -1,7 +1,9 @@
-public class Silver002 extends Main {
+package classwork;
+
+public class Silver002 {
    // 2025/10/14 Silver第2回
 
-   protected void question_001() {
+   public void question_001() {
       /*
       次のうち、インポート宣言をしなくても、自動的にインポートされるものはどれか。正しいものを選びなさい。（2つ選択）
       A. java.langパッケージに属するクラス
@@ -12,7 +14,7 @@ public class Silver002 extends Main {
       System.out.println("A ,C");
    }
 
-   protected void question_002() {
+   public void question_002() {
       /*
       パッケージの説明として誤っているものはどれですか。（2つ選択）
       A. ソースファイルを管理する仕組み
@@ -24,7 +26,7 @@ public class Silver002 extends Main {
       System.out.println("A, D");
    }
 
-   protected void question_003() {
+   public void question_003() {
       /*
       次の式のうち、コンパイルエラーになるものを選びなさい。
       A. int a = 267;
@@ -36,7 +38,7 @@ public class Silver002 extends Main {
       System.out.println("E");
    }
 
-   protected void question_004() {
+   public void question_004() {
       /*
       次の式のうち、コンパイルエラーになるものを選びなさい。5つ選択）
       A. int a = 123_456_789;
@@ -56,7 +58,7 @@ public class Silver002 extends Main {
       System.out.println("C, D, E, F, I");
    }
 
-   protected void question_005() {
+   public void question_005() {
       /*
       次の式のうち、コンパイルエラーになるものを選びなさい。2つ選択
       A. int $a = 100;
@@ -69,7 +71,7 @@ public class Silver002 extends Main {
       System.out.println("D, E");
    }
 
-   protected void question_006() {
+   public void question_006() {
       /*
       次のステートメントのうち、正しいものを選びなさい。４つ選択）
       A. int[][] a = {{1, 1}, {2, 2}};
@@ -84,7 +86,7 @@ public class Silver002 extends Main {
       System.out.println("A, B, D, G");
    }
 
-   protected void question_007() {
+   public void question_007() {
       /*
       の変数宣言のうち、コンパイルエラーとならないものを選びなさい。（1つ選択）
       A. var a;
@@ -96,7 +98,7 @@ public class Silver002 extends Main {
       System.out.println("E");
    }
 
-   protected void question_008() {
+   public void question_008() {
       /*
       A. Stringオブジェクトを作成するコードとして、正しいものを選びなさい。（2つ選択）
       B. String a = new String("sample");
@@ -107,22 +109,22 @@ public class Silver002 extends Main {
       System.out.println("A, B");
    }
 
-   protected void question_009() {
+   public void question_009() {
       String str = "hoge, world.";
       hello(str);
       System.out.println(str);
    }
 
-   protected void hello(String msg) {
+   public void hello(String msg) {
       msg.replaceAll("hoge", "hello");
    }
 
-   protected void question010() {
+   public void question010() {
       String str = "abcd";
       System.out.println(str.charAt(5));
    }
 
-   protected void question_011() { // String
+   public void question_011() { // String
       String str = "abcdef";
       System.out.println(str.indexOf("abcdef"));
 

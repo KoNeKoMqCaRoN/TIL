@@ -1,9 +1,11 @@
+package classwork;
+
 import java.util.ArrayList;
 
-public class Silver003 extends Main {
+public class Silver003 {
    // 2025/10/16 Silver第3回
 
-   protected void question_001() {
+   public void question_001() {
       // メモリの中に文字列が存在しているかどうか
 
       String a = "abc";
@@ -22,7 +24,7 @@ public class Silver003 extends Main {
       System.out.println(count);
    }
 
-   protected void question_002() {
+   public void question_002() {
       String a = "sample";
       String b = "sample";
       System.out.print(a == b);
@@ -30,13 +32,13 @@ public class Silver003 extends Main {
       System.out.println(a.equals(b));
    }
 
-   protected void question_005() {
+   public void question_005() {
       int[] array = new int[0];
       System.out.println(array);
       // ハッシュコードが表示される
    }
 
-   protected void question_006() {
+   public void question_006() {
       Item[] items = new Item[3]; // Item型の部屋を作っただけ、中身は無い
       int total = 0;
       for (int i = 0; i < items.length; i++) {
@@ -46,8 +48,8 @@ public class Silver003 extends Main {
       // コンパイルエラーが発生する
    }
 
-   protected void question_008() {
-      String[][] array = { { "A", "B" }, null, { "C", "D", "E" } };
+   public void question_008() {
+      String[][] array = {{"A", "B"}, null, {"C", "D", "E"}};
       int total = 0;
       for (String[] tmp : array) {
          total += tmp.length;
@@ -56,7 +58,7 @@ public class Silver003 extends Main {
       // 実行時に例外がスローされる
    }
 
-   protected void question_011() {
+   public void question_011() {
       ArrayList<String> list = new ArrayList<>();
       list.add("A");
       list.add(2, "B"); // indexが2の要素はないからエラー
@@ -68,7 +70,7 @@ public class Silver003 extends Main {
       // 実行時に例外がスロー去れる
    }
 
-   protected void question_013() {
+   public void question_013() {
       ArrayList<String> list = new ArrayList<>();
       list.add("A");
       list.add("B");
