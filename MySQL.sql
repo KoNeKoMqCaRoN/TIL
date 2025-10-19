@@ -46,3 +46,14 @@ SELECT DISTINCT 〇〇, 〇〇;
 
 -- 〇〇が〇〇〜〇〇
 SELECT sal BETWEEN 100 AND 1000;
+
+
+-- 2025/10/19 IN, LIKE
+-- くさ or ひこう or じめん
+WHERE tname IN ('くさ', 'ひこう', 'じめん');
+
+WHERE height BETWEEN 1.0 AND 1.9 AND tname IN ('ほのお', 'はがね');
+
+-- 〇〇が含まれている
+WHERE eggname LIKE 'すいちゅう%';
+WHERE gname LIKE '___ポケモン';
